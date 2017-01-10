@@ -27,33 +27,42 @@ header h1{
 }
 
 header h2 {
-    font-size: 400%;
+    font-size: 200%;
     font-family: 'Give You Glory', cursive;
     font-weight: normal;
     margin: 0 0 0 10%;
     padding:0;    
 }
+@media all and (min-width: 800px){
+    header h2 {
+        font-size: 400%;
+    }
+}
+
+@media all and (min-width: 600px) and (max-width: 800px){
+    header h2 {
+        font-size: 300%;
+    }
+}
+
 /*****/
 
 /*Navbar Styles*/
 nav {
     border-top: 5px dashed #f4a8c6;
 }
-#menu {
-    width: 100%;
-    
-}
 
 nav ul {
     list-style-type: none;
     text-align: center;
+    padding: 0;
 }
 
 nav li {
-    display: inline-block;
-    font-size: 150%;
+    font-size: 125%;
     color:#fbd584;
-    margin: 0 1%;
+    padding:0;
+    margin:0;
 }
 
 nav li a {
@@ -61,5 +70,13 @@ nav li a {
     text-decoration: none;
     font-family: 'Give You Glory', cursive;
 
+}
+
+@media all and (min-width: 600px){
+    nav li {
+        display: inline-block;
+        padding: .5%;
+        font-size:150%;
+    }
 }
 /*****/
