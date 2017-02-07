@@ -1,4 +1,2 @@
-<?php
-echo "About";
-?>
+<p>About</p>
 
