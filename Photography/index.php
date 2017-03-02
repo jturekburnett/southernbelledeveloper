@@ -1,5 +1,6 @@
+<!Photography Page Index-->
 <?php
-    require_once($_SERVER['DOCUMENT_ROOT'] . '/SouthernBelleDeveloper/theme/template.php');
+    require_once('../theme/template.php');
     $TITLE = "Photography";
     $variables = array(
         'TITLE' => $TITLE

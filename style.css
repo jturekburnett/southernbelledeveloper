@@ -7,7 +7,7 @@
 header {
     width: 100%;
     height: 100%;
-    background: #a8d6d4 url(/SouthernBelleDeveloper/images/magnoliaColoredSmallPadded.png) right no-repeat;
+    background: #a8d6d4 url(/images/magnoliaColoredSmallPadded.png) right no-repeat;
     background-size: contain;
     margin: 0px auto;
     border-bottom: 5px dashed #f4a8c6;
@@ -89,6 +89,12 @@ nav li a {
 /*****/
 
 /*Main Styles*/
+main{
+    margin: 0 20%;
+    padding: 0 5%;
+    border-left: double #fbd584;
+    border-right: double #fbd584;
+}
 body {
     margin: 0px;
     padding: 0px;
@@ -99,15 +105,22 @@ body {
 
 h1{
     font-family: 'Give You Glory', cursive;
+    margin: 0;
+    
 }
 
-.bodyHeader {
-    transform: rotate(-90deg);
-    float:left;
+section{
+    margin: 1% 0;
 }
+
 
 p {
-    text-align: center;
-    vertical-align: center;
+    text-align: left;
+    margin-top: 0;
 }
+
+body ul {
+    margin-top:0;
+}
+
 /*****/

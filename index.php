@@ -1,5 +1,5 @@
 <?php
-    require_once($_SERVER['DOCUMENT_ROOT'] . '/SouthernBelleDeveloper/theme/template.php');
+    require_once($_SERVER['DOCUMENT_ROOT'] . '/theme/template.php');
     $TITLE = "Home";
     $variables = array(
         'TITLE' => $TITLE

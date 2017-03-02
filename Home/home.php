@@ -1,4 +1,4 @@
-<p>This site is under construction.  Thank you for your patience.</p>
+<p style="text-align: center">This site is under construction.  Thank you for your patience.</p>
 <section id='objectiveSection'>
     <div class='bodyHeader'><h1>Objective</h1></div>
     <p>Software developer seeking full time employment with a preference for contract and/or telecommuting options as current contract ends.</p>
@@ -13,8 +13,8 @@
         <li>PubNub(1 year)</li>
         <li>Twilio (1 year)</li>
     </ul>
-</section>
-<section id='experienceSection'>
+</section><!--
+--><section id='experienceSection'>
     <div class='bodyHeader'><h1>Experience</h1></div>
     
     <p><b>Software Developer, Contracted</b></p>

@@ -1,7 +1,7 @@
 <?php
 
 function renderLayoutWithContentFile($contentFile, $variables = array()){
-    $templatesPath = $_SERVER['DOCUMENT_ROOT'] . '/SouthernBelleDeveloper';
+    $templatesPath = $_SERVER['DOCUMENT_ROOT'];
     
     $contentFileFullPath = $templatesPath . "/" . $contentFile;
     
@@ -17,12 +17,16 @@ function renderLayoutWithContentFile($contentFile, $variables = array()){
     require_once($templatesPath . "/theme/header.php");
     include  $templatesPath . '/theme/navbar.php';
     
+    echo "<main>";
+    
     if (file_exists($contentFileFullPath)){
         require_once ($contentFileFullPath);
     }
     else{
         
     }
+    
+    echo "</main>";
     
     include $templatesPath . '/theme/footer.php';
 }
