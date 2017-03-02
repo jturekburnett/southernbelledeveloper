@@ -5,6 +5,6 @@
     $variables = array(
         'TITLE' => $TITLE
     );
-    renderLayoutWithContentFile("About/about.php", $variables);
+    renderLayoutWithContentFile("../About/about.php", $variables);
 ?>
 

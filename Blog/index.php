@@ -21,5 +21,5 @@ require_once('../theme/template.php');
     $variables = array(
         'TITLE' => $TITLE
     );
-    renderLayoutWithContentFile("Blog/blog.php", $variables);
+    renderLayoutWithContentFile("../Blog/blog.php", $variables);
 ?>

@@ -1,9 +1,9 @@
 <?php
 
 function renderLayoutWithContentFile($contentFile, $variables = array()){
-    $templatesPath = $_SERVER['DOCUMENT_ROOT'];
     
-    $contentFileFullPath = $templatesPath . "/" . $contentFile;
+    
+    $contentFileFullPath = $contentFile;
     
     //each key in the $variables array will become a variable
     if(count($variables) > 0){
@@ -14,11 +14,10 @@ function renderLayoutWithContentFile($contentFile, $variables = array()){
         }
     }
     
-    require_once($templatesPath . "/theme/header.php");
-    include  $templatesPath . '/theme/navbar.php';
+    require_once("/header.php");
+    include  '/navbar.php';
     
     echo "<main>";
-    
     if (file_exists($contentFileFullPath)){
         require_once ($contentFileFullPath);
     }
@@ -28,7 +27,7 @@ function renderLayoutWithContentFile($contentFile, $variables = array()){
     
     echo "</main>";
     
-    include $templatesPath . '/theme/footer.php';
+    include '/footer.php';
 }
 
 ?>

@@ -5,5 +5,5 @@
     $variables = array(
         'TITLE' => $TITLE
     );
-    renderLayoutWithContentFile("Photography/photography.php", $variables);
+    renderLayoutWithContentFile("../Photography/photography.php", $variables);
 ?>
