@@ -14,8 +14,8 @@ function renderLayoutWithContentFile($contentFile, $variables = array()){
         }
     }
     
-    require_once("./header.php");
-    include  './navbar.php';
+    require_once("header.php");
+    include  'navbar.php';
     
     echo "<main>";
     if (file_exists($contentFileFullPath)){
@@ -27,7 +27,7 @@ function renderLayoutWithContentFile($contentFile, $variables = array()){
     
     echo "</main>";
     
-    include './footer.php';
+    include 'footer.php';
 }
 
 ?>
