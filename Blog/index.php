@@ -16,6 +16,8 @@ define('WP_USE_THEMES', FALSE);
 
 /** Loads the WordPress Environment and Template */
 require( dirname( __FILE__ ) . '/wp-blog-header.php' );
+
+/** Loads the template file*/
 require_once('../theme/template.php');
     $TITLE = "Blog";
     $variables = array(
