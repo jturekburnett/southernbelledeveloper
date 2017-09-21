@@ -17,15 +17,12 @@ function renderLayoutWithContentFile($contentFile, $variables = array()){
     require_once("header.php");
     include  'navbar.php';
     
-    echo "<main>";
     if (file_exists($contentFileFullPath)){
         require_once ($contentFileFullPath);
     }
     else{
         
     }
-    
-    echo "</main>";
     
     include 'footer.php';
 }

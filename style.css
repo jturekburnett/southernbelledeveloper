@@ -95,6 +95,9 @@ main{
     border-left: double #fbd584;
     border-right: double #fbd584;
 }
+main .intro{
+    border: none;
+}
 body {
     margin: 0px;
     padding: 0px;
@@ -113,10 +116,31 @@ section{
     margin: 1% 0;
 }
 
+#intro {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0;
+    /*background-color: #f4a8c6;
+    background-clip: padding-box;
+    border-radius: 15px;*/
+    padding: 0.5%;
+}
+
 
 p {
     text-align: left;
     margin-top: 0;
+}
+
+span.largeText{
+    font-family: 'Give You Glory', cursive;
+    color: #a8d6d4;
+    font-size: 300%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-right:1%; 
+    float: left;
+    display: block;
 }
 
 body ul {

@@ -1,3 +1,4 @@
+<main>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <?php if (is_single()): ?>
             <h1> <?php the_title(); ?> </h1>
@@ -12,6 +13,4 @@
 else: ?>
     <p> Sorry, there are no posts at this time.</p>
 <?php endif; ?>
-
-
-
+</main>

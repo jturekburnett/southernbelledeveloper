@@ -1,2 +1,3 @@
-<p>Programming</p>
-
+<main>
+    <p>Programming</p>
+</main>

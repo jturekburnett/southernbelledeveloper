@@ -1,1 +1,3 @@
-<p>Photography test</p>
+<main>
+    <p>Photography test</p>
+</main>
