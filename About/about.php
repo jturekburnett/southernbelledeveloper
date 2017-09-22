@@ -1,8 +1,7 @@
 <main>
-<p style="text-align: center">This site is under construction.  Thank you for your patience.</p>
 <section id='objectiveSection'>
     <div class='bodyHeader'><h1>Objective</h1></div>
-    <p>Software developer seeking full time employment with a preference for contract and/or telecommuting options as current contract ends.</p>
+    <p>Software developer seeking part time employment in mobile or web development.</p>
 </section>
 <section id='skillsSection'>
     <div class='bodyHeader'><h1>Skills</h1></div>
