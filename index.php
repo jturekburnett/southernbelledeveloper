@@ -1,6 +1,6 @@
 <!--Home Index-->
 <?php
-    require_once('./theme/template.php');
+    require_once('theme/template.php');
     $TITLE = "Home";
     $variables = array(
         'TITLE' => $TITLE
